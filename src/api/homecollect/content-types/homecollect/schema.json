@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homecollects",
+  "info": {
+    "singularName": "homecollect",
+    "pluralName": "homecollects",
+    "displayName": "homecollect",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "workplace": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

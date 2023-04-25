@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bringing_offices",
+  "info": {
+    "singularName": "bringing-office",
+    "pluralName": "bringing-offices",
+    "displayName": "bringing-office "
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dynamicimgone": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "dynamicimgtwo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "dynamicimgthree": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

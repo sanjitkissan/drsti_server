@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "workplacegalleries",
+  "info": {
+    "singularName": "workplacegallery",
+    "pluralName": "workplacegalleries",
+    "displayName": "workplacegallery"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "workplaceimg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contactfroms",
+  "info": {
+    "singularName": "contactfrom",
+    "pluralName": "contactfroms",
+    "displayName": "contactfrom"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "subject": {
+      "type": "text",
+      "required": true
+    },
+    "message": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

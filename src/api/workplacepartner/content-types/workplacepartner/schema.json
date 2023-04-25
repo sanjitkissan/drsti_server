@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "workplacepartners",
+  "info": {
+    "singularName": "workplacepartner",
+    "pluralName": "workplacepartners",
+    "displayName": "workplacepartner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "partnerslogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
